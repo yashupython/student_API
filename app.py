@@ -17,6 +17,11 @@ def hello_world():
 def home():
     return render_template("home.html")
 
+# @app.route('/teacher')#root location
+# def home():
+#     return render_template("home.html")
+
+
 @app.route('/student')
 def student():
     return render_template("student.html")
